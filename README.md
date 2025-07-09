@@ -2,7 +2,9 @@
 
 A comprehensive AI-powered HR system for automated CV analysis and candidate evaluation. Built with NestJS backend and Next.js frontend, featuring vector database integration and AI-powered analysis.
 
-## 🚀 Features
+![Preview Screenshot](./screenshot.png)
+
+## Features
 
 ### Core Functionality
 - **CV Upload & Parsing**: Support for PDF and DOCX file formats
@@ -38,14 +40,14 @@ A comprehensive AI-powered HR system for automated CV analysis and candidate eva
 - **File Upload**: Native HTML5 file input
 - **Responsive Design**: Mobile-first approach
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 20.x or higher
 - npm or yarn package manager
 - OpenAI API key (optional)
 - Google Gemini API key (optional)
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -116,7 +118,7 @@ npm run dev
 # App runs on http://localhost:3000
 ```
 
-## 📚 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /auth/register` - User registration
@@ -137,7 +139,7 @@ npm run dev
 - `DELETE /users/:id` - Delete user
 - `GET /users/activity` - View all activity logs
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### 1. User Registration
 ```bash
@@ -171,7 +173,7 @@ curl -X POST http://localhost:3001/vector/search \
   }'
 ```
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 ai-hr-resume-filter/
@@ -192,7 +194,7 @@ ai-hr-resume-filter/
 └── README.md
 ```
 
-## 🔧 Development
+## Development
 
 ### Code Quality
 - **DRY Principle**: Reusable components and utilities
@@ -219,7 +221,7 @@ ai-hr-resume-filter/
 - **Security**: No hardcoded secrets or API keys
 - **Flexibility**: Easy deployment across different environments
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Build
 ```bash
@@ -246,7 +248,7 @@ EXPOSE 3001
 CMD ["npm", "run", "start:prod"]
 ```
 
-## 🔒 Security Features
+## Security Features
 
 - **JWT Authentication**: Secure token-based authentication
 - **Role-based Access**: Admin and user role management
@@ -254,7 +256,7 @@ CMD ["npm", "run", "start:prod"]
 - **CORS Protection**: Cross-origin request handling
 - **File Upload Security**: File type and size validation
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -266,14 +268,14 @@ CMD ["npm", "run", "start:prod"]
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## Support
 
 For support and questions:
 - Create an issue in the repository
 - Check the documentation in the code comments
 - Review the API endpoints documentation above
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **Advanced AI Analysis**: LLM-based detailed candidate assessment
 - **Interview Scheduling**: Automated interview coordination
